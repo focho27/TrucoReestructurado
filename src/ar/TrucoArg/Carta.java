@@ -35,4 +35,6 @@ public abstract class Carta implements Comparable<Carta>{
     public int hashCode() {
         return Objects.hash(numero, nombre);
     }
+
+
 }
